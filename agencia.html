@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Litoral Norte SP - Agência de Viagens</title>
+    <link rel="stylesheet" href="agencia.css">
+</head>
+<body>
+
+    <header>
+        <h1>Explore o Litoral Norte</h1>
+        <p>As melhores praias de SP a um clique de distância</p>
+    </header>
+
+    <section class="carousel-container">
+        <div class="carousel-slide">
+            <img src="ilha bela.jpg" class="active" alt="Ilhabela">
+            <img src="praiacurral.jpg" class="active" alt="Ilhabela">
+            <img src="ubatuba.jpeg" alt="Ubatuba">
+            <img src="praiadofelix.jpg" class="active" alt="Ubatuba">
+            <img src="maresiassaosebastiao.jpg" alt="São Sebastião">
+            <img src="baleiasaosebastiao.jpeg" class="active" alt="São Sebastião">
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </section>
+
+    <section class="destinos">
+        <div class="card">
+            <h3>Ubatuba</h3>
+            <p>Mais de 100 praias e natureza preservada.</p>
+            <button class="btn-reserva">Reservar</button>
+        </div>
+        <div class="card">
+            <h3>Ilhabela</h3>
+            <p>Onde o azul do mar abraça a força da Mata Atlântica</p>
+            <button class="btn-reserva">Reservar</button>
+        </div>
+        <div class="card">
+            <h3>São Sebastião</h3>
+            <p>Onde o agito de Maresias encontra a paz de Juquehy.</p>
+            <button class="btn-reserva">Reservar</button>
+        </div>
+    </section>
+
+    <script src="agencia.js"></script>
+</body>
+</html>
